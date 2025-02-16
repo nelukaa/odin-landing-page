@@ -1,35 +1,226 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     font-family: "Roboto", Calibri, sans-serif;
-}
-
-/* start of nav styling */
-nav {
-    height: 5vh;
-    width: auto;
-    background-color: #1f2937;
+  }
+  
+  /* Navbar */
+  nav {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 0% 10%;
-}
-
-.header-logo {
+    align-items: center;
+    height: 8vh;
+    width: auto;
+    max-width: 100%;
+    background-color: #1f2937;
+    padding: 0 10%
+  }
+  
+  .header-items {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+  }
+  
+  .header-logo {
     font-size: 24px;
     color: #F9FAF8;
-}
-
-.header-items {
-    font-size: 18px;
-    list-style-type: none;
-    display: flex;
-    gap: 5%;
-    width: 30%;
-}
-
-.header-item a {
-    color: #E5E7EB;
+  }
+  
+  .header-item a {
     text-decoration: none;
-}
-/* end of nav styling */
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 350;
+  }
+  
+  /* Hero */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 52vh;
+    width: auto;
+    max-width: 100%;
+    background-color: #1f2937;
+    padding: 0 10%
+  }
+  
+  .hero-image {
+    background-color: grey;
+    width: 30vw;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+  }
+  
+  .hero-content {
+    width: 40vw;
+    height: auto;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 5px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    font-weight: 350;
+    color: #e5e7eb;
+    margin: 5px;
+  }
+  
+  .hero button {
+    width: 8vw;
+    height: 4vh;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    margin: 5px;
+  }
+  
+  /* section two */
+  
+  .section-two {
+    height: 52vh;
+    width: auto;
+    max-width: 100%;
+    background-color: white;
+  }
+  
+  .section-two h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 50px;
+  }
+  
+  .tiles-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .tile {
+    width: 10vw;
+    height: auto;
+    margin: 5px;
+  }
+  
+  .tile-image {
+    width: 10vw;
+    height: 20vh;
+    box-sizing: border-box; 
+    border: solid #3882f6 5px;
+    border-radius: 20px;
+  }
+  
+  .tile p {
+    font-size: 18px;
+    color: #89898a;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px;
+  }
+  
+  /* section three */
+  
+  .section-three {
+    height: 52vh;
+    width: auto;
+    max-width: 100%;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section-three-content {
+    width: 50vw;
+  }
+  
+  .section-three p {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 350;
+    text-align: left;
+  }
+  
+  .section-three h4 {
+    text-align: right;
+    font-size: 24px;
+    color: #1f2937;
+    margin: 10px;
+  }
+  
+  /* section 4 */
+  
+  .section-four {
+    height: 52vh;
+    width: auto;
+    max-width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+  }
+  
+  .section-four-container {
+    width: 100vw;
+    height: 20vh;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15%;
+  }
+  
+  .section-four-container button {
+    width: 8vw;
+    height: 4vh;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 400;
+    border: solid #F9FAF8 3px;
+    margin: 5px;
+  }
+  
+  .section-four-content h4 {
+    font-size: 24px;
+    color: #F9FAF8;
+  }
+  
+  .section-four-content p {
+    font-size: 18px;
+    font-weight: 350;
+    color: #e5e7eb;
+  }
+  
+  /* Footer */
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: auto;
+    max-width: 100%;
+    background-color: #1f2937;
+    padding: 0 10%;
+    color: #F9FAF8;
+  }
